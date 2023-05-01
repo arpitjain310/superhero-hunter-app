@@ -38,7 +38,7 @@ fetch(
     superheroElement.appendChild(favoriteButton);
 
     //  Click event to open respective superhero page 
-    superheroElement.addEventListener("click", () => {
+    superheroName.addEventListener("click", () => {
         window.location.href = `superhero.html?id=${superhero.id}`;
       });
       
