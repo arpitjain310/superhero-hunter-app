@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  #superhero-image {
+    width: 35rem;
+    height: 30rem;
+  }
+
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .superhero-details{
+    width:45%;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .homepage-hyperlink {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-hyperlink a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+  }
+  
+  .homepage-hyperlink a:hover {
+    background-color: #666;
+  }
